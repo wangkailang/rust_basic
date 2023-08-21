@@ -31,4 +31,8 @@ fn main() {
     println!("constant examples:");
     const_06::main();
     println!("----------------------------------------------------------------");
+
+    println!("constant examples:");
+    loop_07::main();
+    println!("----------------------------------------------------------------");
 }
