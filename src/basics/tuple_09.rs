@@ -1,5 +1,5 @@
 pub fn main() {
-  let tuple_name = ("Kilian", "Macintosh", "Kitten");
+  let tuple_name = ("Kalian", "Macintosh", "Kitten");
   println!("names: {:?}, first name: {}", tuple_name, tuple_name.0);
   print_tuple(tuple_name);
 
