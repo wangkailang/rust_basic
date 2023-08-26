@@ -5,6 +5,9 @@ mod bool_04;
 mod variable_05;
 mod const_06;
 mod loop_07;
+mod function_08;
+mod tuple_09;
+mod array_10;
 
 fn main() {
     println!("----------------------------------------------------------------");
@@ -32,7 +35,19 @@ fn main() {
     const_06::main();
     println!("----------------------------------------------------------------");
 
-    println!("constant examples:");
+    println!("loop examples:");
     loop_07::main();
+    println!("----------------------------------------------------------------");
+
+    println!("function examples:");
+    function_08::main();
+    println!("----------------------------------------------------------------");
+
+    println!("tuple examples:");
+    tuple_09::main();
+    println!("----------------------------------------------------------------");
+
+    println!("array examples:");
+    array_10::main();
     println!("----------------------------------------------------------------");
 }
